@@ -5,7 +5,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST["message"];
 
     // Send an email to the site owner
-    $to = "your@email.com"; // Replace with your email address
+    $to = "kmulloth@gmail.com"; // Replace with your email address
     $subject = "New Contact Form Submission";
     $headers = "From: $email";
 
